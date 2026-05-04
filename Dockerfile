@@ -21,7 +21,6 @@ RUN apt-get update
 RUN apt-get install -y gcc-aarch64-linux-gnu g++-aarch64-linux-gnu # Cross compiler
 RUN apt-get install -y libasound2-dev:arm64 
 RUN apt-get install -y libgles2-mesa-dev:arm64 
-RUN apt-get install -y libcurl4-openssl-dev:arm64 
 RUN apt-get install -y zlib1g-dev:arm64 
 RUN apt-get install -y uuid-dev:arm64 
 RUN apt-get install -y libxext-dev:arm64 
