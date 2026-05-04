@@ -1,7 +1,7 @@
 FROM debian:trixie
 
 # COMMONS
-RUN apt-get update && apt-get install -y  build-essential devscripts cmake debhelper dh-exec pkg-config rsync ccashe
+RUN apt-get update && apt-get install -y  build-essential devscripts cmake debhelper dh-exec pkg-config rsync ccache
 
 
 # ARM 32
